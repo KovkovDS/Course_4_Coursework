@@ -1,0 +1,21 @@
+[
+  "tests/test_class_vacancy.py::test_cast_to_object_list",
+  "tests/test_class_vacancy.py::test_str",
+  "tests/test_classes_for_services.py::test_get_vacancies_hh",
+  "tests/test_classes_for_services.py::test_get_vacancies_sj",
+  "tests/test_classes_for_services.py::test_params",
+  "tests/test_func.py::test_end_word_question",
+  "tests/test_work_with_data.py::test_delete_from_file_json",
+  "tests/test_work_with_data.py::test_file_name_excel",
+  "tests/test_work_with_data.py::test_file_name_json",
+  "tests/test_work_with_data.py::test_load_from_file",
+  "tests/test_work_with_data.py::test_load_from_file_json",
+  "tests/test_work_with_data.py::test_save_to_excel_file",
+  "tests/test_work_with_data.py::test_write_file_json",
+  "tests/test_work_with_data.py::test_write_to_file_top_n_vac_json",
+  "tests/test_work_with_vacancies_list.py::test_filter_vacancies",
+  "tests/test_work_with_vacancies_list.py::test_filter_vacancy_by_keywords",
+  "tests/test_work_with_vacancies_list.py::test_get_top_vacancies",
+  "tests/test_work_with_vacancies_list.py::test_get_vacancies_by_salary",
+  "tests/test_work_with_vacancies_list.py::test_sort_vacancies"
+]
