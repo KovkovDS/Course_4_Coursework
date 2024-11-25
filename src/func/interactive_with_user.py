@@ -199,18 +199,18 @@ def user_interaction():
     save_data_format_excel = input(f'\nВы также можете сохранить данные в формате Excel ("*.xlsx"). '
                                    f'Сохранить данные в Excel формате? Введите "да" или "нет", '
                                    f'или пропустите данный шаг, нажав "Enter": ').lower()
-    if save_data_format_excel != 'да':
-        pass
-    else:
-        user_name_file_excel = input(f'\nУкажите как назвать файл или нажмите "Enter и файл будет сохранен с именем '
-                                     f'{json_file.file_name}, как и файл формата json: ')
-        excel_file = ExcelManager()
-        if user_name_file_excel == '':
-            excel_file.file_name = json_file.file_name
-        else:
-            excel_file.file_name = user_name_file_excel
-
-        excel_file.save_to_excel_file(top_vacancies)
+    # if save_data_format_excel != 'да':
+    #     pass
+    # else:
+    #     user_name_file_excel = input(f'\nУкажите как назвать файл или нажмите "Enter и файл будет сохранен с именем '
+    #                                  f'{json_file.file_name}, как и файл формата json: ')
+    #     excel_file = ExcelManager()
+    #     if user_name_file_excel == '':
+    #         excel_file.file_name = json_file.file_name
+    #     else:
+    #         excel_file.file_name = user_name_file_excel
+    #
+    #     excel_file.save_to_excel_file(top_vacancies)
     print(f'\nРабота приложения завершена. Спасибо, всего доброго! :)')
     exit()
 
